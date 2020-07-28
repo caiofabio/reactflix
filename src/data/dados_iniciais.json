@@ -3,7 +3,7 @@
     {
       "titulo": "Desenhando",
       "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "cor": "#00BFFF",
       "link_extra": {
         "text": "Curso Desenho Alura",
         "url": "https://www.alura.com.br/curso-online-desenho-rosto-humano"
@@ -45,7 +45,7 @@
     },
     {
       "titulo": "Curiosidades",
-      "cor": "#00C86F",
+      "cor": "#7FFF00",
       "link_extra": {
         "text": "Descubra mais",
         "url": "https://www.pokemon.com/br/pokedex/"
@@ -75,7 +75,7 @@
     },
     {
       "titulo": "Pokémon GO!!",
-      "cor": "#9cd33b",
+      "cor": "#40E0D0",
       "link_extra": {
         "text": "Pokémon GO, Site official.",
         "url": "https://pokemongolive.com/pt_br/"
@@ -157,7 +157,7 @@
     },
     {
       "titulo": "Bonus: Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
+      "cor": "#FF00FF",
       "link_extra": {
         "text": "Curso sobre aprendizado na Alura",
         "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
