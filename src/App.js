@@ -12,7 +12,7 @@ function App() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Oque é Front-End? Trabalhando na area."}
+        videoDescription={"Ele apareceu pela primeira vez no Japão em 1996, nos jogos eletrônicos Pokémon Red and Blue"}
       />
       <Caroseul
         ignoreFirstVideo
@@ -23,7 +23,6 @@ function App() {
         category={dadosIniciais.categorias[1]}
       />
       <Caroseul
-        ignoreFirstVideo
         category={dadosIniciais.categorias[2]}
       />
       <Caroseul

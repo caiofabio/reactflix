@@ -1,101 +1,101 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Desenhando",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Curso Desenho Alura",
+        "url": "https://www.alura.com.br/curso-online-desenho-rosto-humano"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Quem é esse Pokemon? #POKEMON",
+          "url": "https://www.youtube.com/watch?v=YIA6Ckqsqhg"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Mew",
+          "url": "https://www.youtube.com/watch?v=1vQjrJlX6I8&list=PLktSUNu3rLlqGMo4SqANFuJn2o-H5A0-B&index=1"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Machamp",
+          "url": "https://www.youtube.com/watch?v=KEcDsOG1WOc&list=PLktSUNu3rLlqGMo4SqANFuJn2o-H5A0-B&index=2"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Gengar",
+          "url": "https://www.youtube.com/watch?v=bktiLQOZtNI"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Desenho Gamer",
+          "url": "https://www.youtube.com/watch?v=hqpTcJwN4FY"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Texturas",
+          "url": "https://www.youtube.com/watch?v=58NCsnuentg"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Dratini",
+          "url": "https://www.youtube.com/watch?v=_2ojGgbxEDI"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Jigglypuff",
+          "url": "https://www.youtube.com/watch?v=e9Pz4ksL0fM"
         }        
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Curiosidades",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Descubra mais",
+        "url": "https://www.pokemon.com/br/pokedex/"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "10 Fatos Curiosos sobre Pokémon!",
+          "url": "https://www.youtube.com/watch?v=aAcVXJ5niZE"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Os 10 pokémons mais raros.",
+          "url": "https://www.youtube.com/watch?v=iOpNhpYJpSg"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "14 Pokémons que existem na vida real.",
+          "url": "https://www.youtube.com/watch?v=s83o6NZna84"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
+          "titulo": "10 Segredos obscuros sobre pokémon.",
+          "url": "https://www.youtube.com/watch?v=fc4VdHfv6ls"
+        },
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Pokémon evoluções.",
+          "url": "https://www.youtube.com/watch?v=gx6QN5QG7As"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Pokémon GO!!",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Pokémon GO, Site official.",
+        "url": "https://pokemongolive.com/pt_br/"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Fake Gps Win10.",
+          "url": "https://www.youtube.com/watch?v=I6TrS5gN-6I"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Todos pokémons go, até momento.",
+          "url": "https://www.youtube.com/watch?v=PpbollnW-x4"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Pokémon Go, Estrategia do Coisas de Nerd.",
+          "url": "https://www.youtube.com/watch?v=3EMftU0fE3w&list=PLBZ6_2jMd0v1b4PCxy_nk10l2BfZw-zVu&index=3"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Pokémon GO, Evento 2020.",
+          "url": "https://www.youtube.com/watch?v=0MesABDj1sk"
         }
       ]
     },
@@ -108,16 +108,20 @@
           "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Pokémon Detetive Pikachu",
+          "url": "https://www.youtube.com/watch?v=PgnUfnRjYfU"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Pokémon the Movie: Koko Official Trailer",
+          "url": "https://www.youtube.com/watch?v=0dDeMbO_VPI"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Pokémon o filme 22: Mewtwo Contra-Ataca Evolução",
+          "url": "https://www.youtube.com/watch?v=Cfc5Lljs1WM"
+        },
+        {
+          "titulo":"Pokémon O Filme: Eu Escolho Você!",
+          "url": "https://www.youtube.com/watch?v=dSnGOxOQfoA"
         }
       ]
     },
@@ -130,20 +134,20 @@
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "MINECRAFT vs POKEMON GO",
+          "url": "https://www.youtube.com/watch?v=Bqnzk-9JblY"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Pokémon: Ultra Sun",
+          "url": "https://youtu.be/hqd_EL_musY"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "Pokémon Blue",
+          "url": "https://www.youtube.com/watch?v=noNl2NkVC5E"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "Pokémon Stadium 2",
+          "url": "https://www.youtube.com/watch?v=4kFM_x885RI"
         },
         {
           "titulo": "Pokémon Let's Go Pikachu/Eevee",
@@ -152,7 +156,7 @@
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Bonus: Aprendendo a aprender tecnologia",
       "cor": "#6b5be2",
       "link_extra": {
         "text": "Curso sobre aprendizado na Alura",
@@ -164,8 +168,8 @@
           "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "SEO com React",
+          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
         },
         {
           "titulo": "Frameworks",
