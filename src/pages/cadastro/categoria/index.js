@@ -1,5 +1,5 @@
 /* eslint-disable linebreak-style */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
@@ -28,6 +28,20 @@ function CadastroCategoria() {
       infosDoEvento.target.value,
     );
   }
+  // fetch('http://localhost:8080/categorias')
+  useEffect(() => {
+    const URL_TOP = 'http://localhost:8080/categorias';
+    fetch(URL_TOP)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        // console.log(resposta);
+        setCategorias([
+          ...resposta,
+        ]);
+      });
+  }, [
+    values.nome,
+  ]);
 
   return (
     <PageDefault>
@@ -54,7 +68,6 @@ function CadastroCategoria() {
           value={values.nome}
           onChange={handleChange}
         />
-
         <FormField
           label="Descrição"
           type="textarea"
@@ -62,19 +75,6 @@ function CadastroCategoria() {
           value={values.descricao}
           onChange={handleChange}
         />
-
-        {/* <div>
-            <label>
-              Descrição:
-              <textarea
-                type="text"
-                value={values.descricao}
-                name="descricao"
-                onChange={handleChange}
-              />
-            </label>
-          </div> */}
-
         <FormField
           label="Cor"
           type="color"
@@ -87,6 +87,12 @@ function CadastroCategoria() {
           Cadastrar
         </Button>
       </form>
+
+      {categorias.length === 0 && (// nenhuma categoria cadastrada == 0, exibir loading
+      <div>
+        Loading...
+      </div>
+      )}
 
       <ul>
         {categorias.map((categoria) => (
