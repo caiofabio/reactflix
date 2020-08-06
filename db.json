@@ -1,16 +1,254 @@
 {
-  "categorias":[
+  "categorias": [
     {
       "id": 1,
-      "nome": "Front End",
+      "titulo": "Desenhando",
       "descricao": "Uma Categoria",
-      "cor": "#cbd1ff"
+      "cor": "#00BFFF",
+      "link_extra": {
+        "text": "Curso Desenho Alura",
+        "url": "https://www.alura.com.br/curso-online-desenho-rosto-humano"
+      }
     },
     {
       "id": 2,
-      "nome": "Back End",
+      "titulo": "Curiosidades",
       "descricao": "Uma Categoria",
-      "cor": "#cbd1ff"
+      "cor": "#7FFF00",
+      "link_extra": {
+        "text": "Descubra mais",
+        "url": "https://www.pokemon.com/br/pokedex/"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Pokémon GO!!",
+      "descricao": "Uma Categoria",
+      "cor": "#40E0D0",
+      "link_extra": {
+        "text": "Pokémon GO, Site official.",
+        "url": "https://pokemongolive.com/pt_br/"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Filmes",
+      "descricao": "Uma Categoria",
+      "cor": "orange"
+    },
+    {
+      "id": 5,
+      "titulo": "Games",
+      "descricao": "Uma Categoria",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Bonus: Aprendendo a aprender tecnologia",
+      "descricao": "Uma Categoria",
+      "cor": "#FF00FF",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Quem é esse Pokemon? #POKEMON",
+      "url": "https://www.youtube.com/watch?v=YIA6Ckqsqhg"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Mew",
+      "url": "https://www.youtube.com/watch?v=1vQjrJlX6I8&list=PLktSUNu3rLlqGMo4SqANFuJn2o-H5A0-B&index=1"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Machamp",
+      "url": "https://www.youtube.com/watch?v=KEcDsOG1WOc&list=PLktSUNu3rLlqGMo4SqANFuJn2o-H5A0-B&index=2"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Gengar",
+      "url": "https://www.youtube.com/watch?v=bktiLQOZtNI"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Desenho Gamer",
+      "url": "https://www.youtube.com/watch?v=hqpTcJwN4FY"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Texturas",
+      "url": "https://www.youtube.com/watch?v=58NCsnuentg"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Dratini",
+      "url": "https://www.youtube.com/watch?v=_2ojGgbxEDI"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Jigglypuff",
+      "url": "https://www.youtube.com/watch?v=e9Pz4ksL0fM"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "10 Fatos Curiosos sobre Pokémon!",
+      "url": "https://www.youtube.com/watch?v=aAcVXJ5niZE"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Os 10 pokémons mais raros.",
+      "url": "https://www.youtube.com/watch?v=iOpNhpYJpSg"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "14 Pokémons que existem na vida real.",
+      "url": "https://www.youtube.com/watch?v=s83o6NZna84"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "10 Segredos obscuros sobre pokémon.",
+      "url": "https://www.youtube.com/watch?v=fc4VdHfv6ls"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Pokémon evoluções.",
+      "url": "https://www.youtube.com/watch?v=gx6QN5QG7As"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Fake Gps Win10.",
+      "url": "https://www.youtube.com/watch?v=I6TrS5gN-6I"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Todos pokémons go, até momento.",
+      "url": "https://www.youtube.com/watch?v=PpbollnW-x4"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Pokémon Go, Estrategia do Coisas de Nerd.",
+      "url": "https://www.youtube.com/watch?v=3EMftU0fE3w&list=PLBZ6_2jMd0v1b4PCxy_nk10l2BfZw-zVu&index=3"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Pokémon GO, Evento 2020.",
+      "url": "https://www.youtube.com/watch?v=0MesABDj1sk"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Bonus, easter egg AVENGERS AS POKEMON",
+      "url": "https://www.youtube.com/watch?v=7hicrAdb4gI"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Pokémon Detetive Pikachu",
+      "url": "https://www.youtube.com/watch?v=PgnUfnRjYfU"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Pokémon the Movie: Koko Official Trailer",
+      "url": "https://www.youtube.com/watch?v=0dDeMbO_VPI"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Pokémon o filme 22: Mewtwo Contra-Ataca Evolução",
+      "url": "https://www.youtube.com/watch?v=Cfc5Lljs1WM"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Pokémon O Filme: Eu Escolho Você!",
+      "url": "https://www.youtube.com/watch?v=dSnGOxOQfoA"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "MINECRAFT vs POKEMON GO",
+      "url": "https://www.youtube.com/watch?v=Bqnzk-9JblY"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Pokémon: Ultra Sun",
+      "url": "https://youtu.be/hqd_EL_musY"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Pokémon Blue",
+      "url": "https://www.youtube.com/watch?v=noNl2NkVC5E"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "Pokémon Stadium 2",
+      "url": "https://www.youtube.com/watch?v=4kFM_x885RI"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "Pokémon Let's Go Pikachu/Eevee",
+      "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "Como estudar melhor?",
+      "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "SEO com React",
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "Frameworks",
+      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "A mágica do Aprendizado",
+      "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+    },
+    {
+      "id": 32,
+      "categoriaId": 6,
+      "titulo": "Como aprender a programar?",
+      "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
     }
   ]
 }
