@@ -1,6 +1,7 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-fragments */
-/* eslint-disable linebreak-style */
+
 import styled, { css } from 'styled-components';
 import React from 'react';
 import Menu from '../Menu';

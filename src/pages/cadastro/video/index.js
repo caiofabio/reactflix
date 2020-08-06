@@ -1,4 +1,6 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable max-len */
+
 import React, { useEffect, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
@@ -34,9 +36,7 @@ function CadastroVideo() {
         event.preventDefault();
         // alert('Video Cadastrado com sucesso!!!1!');
 
-        const categoriaEscolhida = categorias.find((categoria) => {
-          return categoria.titulo === values.categoria;
-        });
+        const categoriaEscolhida = categorias.find((categoria) => categoria.titulo === values.categoria);
 
         videosRepository.create({
           titulo: values.titulo,
@@ -44,7 +44,7 @@ function CadastroVideo() {
           categoriaId: categoriaEscolhida.id,
         })
           .then(() => {
-            console.log('Cadastrou com sucesso!');
+            // console.log('Cadastrou com sucesso!');
             history.push('/');
           });
       }}
